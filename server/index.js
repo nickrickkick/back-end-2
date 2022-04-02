@@ -12,7 +12,7 @@ const {
     createHouse, 
     updateHouse
 } = require('./controller')
-
+//remember these are endpoints
 app.get(`/api/houses`, getHouses)
 app.post(`/api/houses`, createHouse)
 app.delete(`/api/houses/:id`, deleteHouse)
